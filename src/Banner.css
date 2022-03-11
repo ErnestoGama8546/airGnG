@@ -1,0 +1,49 @@
+.banner {
+  /* background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.cheapism.com%2Fmost-beautiful-views-in-the-world%2F&psig=AOvVaw2JnBgCL0Kb8YUuPbK268eQ&ust=1647041959254000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLiS9s7bvPYCFQAAAAAdAAAAABAD"); */
+  height: 85vh;
+  position: relative;
+}
+
+/* .banner_pic {
+  height: 100vh;
+  position: relative;
+} */
+
+.banner_info {
+  background-color: grey;
+  color: aliceblue;
+  padding-top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 300px;
+}
+
+.banner_info > button {
+  background-color: #ff7779;
+  color: aliceblue;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner_search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner_searcButton {
+  background-color: aliceblue !important;
+  font-weight: 900 !important;
+  text-transform: initial !important;
+  color: #ff7779 !important;
+}
+
+.banner_info > button:hover {
+  background-color: aliceblue;
+  color: #ff7779;
+}
+
+.banner_info > h5 {
+  margin-top: 10px;
+}
